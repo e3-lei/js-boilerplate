@@ -1,3 +1,3 @@
-import hello from './components/demo.js'
+import hello from './components/hello/hello.js'
 
 console.log(hello('world'));

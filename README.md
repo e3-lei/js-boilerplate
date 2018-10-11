@@ -1,5 +1,5 @@
-# js-webpack-babel-es5 基本配置
+# js-webpack-babel-es6 基本配置
 
 ```bash
-$ npm build && npm test
+$ npm build && npm cli-test
 ```
