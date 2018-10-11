@@ -96,10 +96,11 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_demo_demo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/demo/demo.js */ "./src/js/components/demo/demo.js");
+ // test
 
-console.log(Object(_components_demo_demo_js__WEBPACK_IMPORTED_MODULE_0__["hello"])('world'));
 var person = new _components_demo_demo_js__WEBPACK_IMPORTED_MODULE_0__["Person"]('abc');
 console.log(person.name);
+console.log(Object(_components_demo_demo_js__WEBPACK_IMPORTED_MODULE_0__["hello"])('world'));
 
 /***/ }),
 
