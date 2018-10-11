@@ -1,8 +1,9 @@
 {
-  "name": "js-boilerplate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@e3-lei/js-boilerplate",
+  "version": "0.1.0",
+  "description": "es6-webpack-babel-mocha boilerplate",
+  "main": "public/app.bundle.js",
+  "repository": "e3-lei/js-boilerplate",
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack",
