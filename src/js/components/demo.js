@@ -1,3 +1,1 @@
-export default function hello(name) {
-	return 'hello ' + name;
-}
+export default function name => 'hello ' + name;
