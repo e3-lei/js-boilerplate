@@ -95,25 +95,38 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_demo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/demo.js */ "./src/js/components/demo.js");
+/* harmony import */ var _components_demo_demo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/demo/demo.js */ "./src/js/components/demo/demo.js");
 
-console.log(Object(_components_demo_js__WEBPACK_IMPORTED_MODULE_0__["default"])('world'));
+console.log(Object(_components_demo_demo_js__WEBPACK_IMPORTED_MODULE_0__["hello"])('world'));
+var person = new _components_demo_demo_js__WEBPACK_IMPORTED_MODULE_0__["Person"]('abc');
+console.log(person.name);
 
 /***/ }),
 
-/***/ "./src/js/components/demo.js":
-/*!***********************************!*\
-  !*** ./src/js/components/demo.js ***!
-  \***********************************/
-/*! exports provided: default */
+/***/ "./src/js/components/demo/demo.js":
+/*!****************************************!*\
+  !*** ./src/js/components/demo/demo.js ***!
+  \****************************************/
+/*! exports provided: hello, Person */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return hello; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hello", function() { return hello; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Person", function() { return Person; });
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
 function hello(name) {
   return 'hello ' + name;
 }
+
+var Person = function Person(name) {
+  _classCallCheck(this, Person);
+
+  this.name = name;
+};
+
+
 
 /***/ })
 
