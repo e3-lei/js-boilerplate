@@ -90,10 +90,30 @@
 /*!***********************!*\
   !*** ./src/js/app.js ***!
   \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_demo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/demo.js */ "./src/js/components/demo.js");
 
+console.log(Object(_components_demo_js__WEBPACK_IMPORTED_MODULE_0__["default"])('world'));
+
+/***/ }),
+
+/***/ "./src/js/components/demo.js":
+/*!***********************************!*\
+  !*** ./src/js/components/demo.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return hello; });
+function hello(name) {
+  return 'hello ' + name;
+}
 
 /***/ })
 
